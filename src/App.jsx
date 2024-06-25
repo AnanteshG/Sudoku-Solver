@@ -142,9 +142,9 @@ function App() {
   return (
     <div className="App">
       <h1>SudoSolver</h1>
-      <div className="image-container">
+      {/* <div className="image-container">
         <img src="src\assets\try_it.png" alt="Sudoku" />
-      </div>
+      </div> */}
       <div className="sudoku-container">
         <table>
           <tbody>
