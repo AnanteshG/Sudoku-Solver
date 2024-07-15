@@ -159,3 +159,37 @@ button:hover {
     padding: 12px 24px;
   }
 }
+
+.linkedin-icon {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.linkedin-icon::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #0077b5;
+  transform: translate(60%, 50%);
+}
+
+.linkedin-icon a {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.linkedin-icon a:hover {
+  color: #005582;
+}

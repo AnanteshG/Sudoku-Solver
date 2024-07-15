@@ -1,5 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './App.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function App() {
   const gridSize = 9;
@@ -174,6 +176,11 @@ function App() {
       {' '}
       <button onClick={restartSudoku}>Restart Puzzle</button>
       {warning && <p className="warning">{warning}</p>}
+      <div className="linkedin-icon">
+        <a href="https://www.linkedin.com/in/anantesh-gopal-6635b7264/" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faLinkedin} size="2x" />
+        </a>
+      </div>
     </div>
   );
 }
